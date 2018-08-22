@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > -ls lists contents (files and directories) of the directory you are currently in
--ls -a lists contents of current directory including hidden files
--ls -l lists contents in long format
--ls -lh lists contents in long format but abbreviates file sizes using unit suffixes (byte, kilobyte, megabyte, etc)
--ls -lah lists contents including hidden files in long format with file sizes abbreviated
--ls -t lists in order of time modified
--ls -Glp lists content in long format with '/' after directories and enabling colorized output
+> > *  ls lists contents (files and directories) of the directory you are currently in
+* ls -a lists contents of current directory including hidden files
+* ls -l lists contents in long format
+* ls -lh lists contents in long format but abbreviates file sizes using unit suffixes (byte, kilobyte, megabyte, etc)
+* ls -lah lists contents including hidden files in long format with file sizes abbreviated
+* ls -t lists in order of time modified
+* ls -Glp lists content in long format with '/' after directories and enabling colorized output
 
 ---
 
