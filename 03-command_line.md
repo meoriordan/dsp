@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls lists contents (files and directories) of the directory you are currently in
-ls -a lists contents of current directory including hidden files
-ls -l lists contents in long format
-ls -lh lists contents in long format but abbreviates file sizes using unit suffixes (byte, kilobyte, megabyte, etc)
-ls -lah lists contents including hidden files in long format with file sizes abbreviated
-ls -t lists in order of time modified
-ls -Glp lists content in long format with '/' after directories and enabling colorized output
+> > -ls lists contents (files and directories) of the directory you are currently in
+-ls -a lists contents of current directory including hidden files
+-ls -l lists contents in long format
+-ls -lh lists contents in long format but abbreviates file sizes using unit suffixes (byte, kilobyte, megabyte, etc)
+-ls -lah lists contents including hidden files in long format with file sizes abbreviated
+-ls -t lists in order of time modified
+-ls -Glp lists content in long format with '/' after directories and enabling colorized output
 
 ---
 
@@ -58,11 +58,11 @@ ls -Glp lists content in long format with '/' after directories and enabling col
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -u sort by last access time
-ls -m displays contents in a single line separated by commas
-ls -R lists subdirectories of all directories
-ls -1 displays output as a single column
-ls -r sort output in reverse order
+> > 1. ls -u sort by last access time
+2. ls -m displays contents in a single line separated by commas
+3. ls -R lists subdirectories of all directories
+4. ls -1 displays output as a single column
+5. ls -r sort output in reverse order
 
 ---
 
