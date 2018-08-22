@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1. show current working directory path **pwd**
+2. creating a directory **mkdir name**
+3. deleting a directory **rmdir name**
+4. creating a file using 'touth' command **touch filename**
+5. deleting a file **rm filename**
+6. renaming a file **mv oldfilename newfilename**
+7. listing hidden files **ls -a**
+8. copying a file from one directory to another **cp filename destination**
+9. moving a file or directory **mv filename destination**
+10. view the contents of a file **cat filename** 
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls lists contents (files and directories) of the directory you are currently in
+ls -a lists contents of current directory including hidden files
+ls -l lists contents in long format
+ls -lh lists contents in long format but abbreviates file sizes using unit suffixes (byte, kilobyte, megabyte, etc)
+ls -lah lists contents including hidden files in long format with file sizes abbreviated
+ls -t lists in order of time modified
+ls -Glp lists content in long format with '/' after directories and enabling colorized output
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -u sort by last access time
+ls -m displays contents in a single line separated by commas
+ls -R lists subdirectories of all directories
+ls -1 displays output as a single column
+ls -r sort output in reverse order
 
 ---
 
@@ -51,7 +70,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs enables you to pass standard input to use in another command. It reads items (separated by commas) from this input and executes the command for each item. It is useful for performing the same action on multiple files/ directories at once (moving, creating, copying, etc.)
+
+Here is an example:
+
+seq 5 | xargs mkdir
+This creates directories labelled 1, 2, 3, 4, 5. The advantage of using xargs is that   you do not have to type mkdir 5 times
 
  
 
