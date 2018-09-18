@@ -1,7 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-In the above graph, the difference between the actual and observed PMF is evident. If children are asked how many children are in their household, the pmf is biased because households with many children will be over-represented, and households with no children will not appear at all. This is also evident in the different means: 1.02 children per household (actual) vs 2.40 (biased).
+>> In the below graph, the difference between the actual and observed PMF is evident. If children are asked how many children are in their household, the pmf is biased because households with many children will be over-represented, and households with no children will not appear at all. This is also evident in the different means: 1.02 children per household (actual) vs 2.40 (biased).
 
 
 ```
