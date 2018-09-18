@@ -2,7 +2,7 @@
 
 >> In the below graph, the difference between the actual and observed PMF is evident. If children are asked how many children are in their household, the pmf is biased because households with many children will be over-represented, and households with no children will not appear at all. This is also evident in the different means: 1.02 children per household (actual) vs 2.40 (biased).
 
-
+![actual_vs_biased](https://github.com/meoriordan/dsp/blob/master/statistics/images/actual%20vs%20biased.png)
 ```
 resp = nsfg.ReadFemResp() #load in data
 
