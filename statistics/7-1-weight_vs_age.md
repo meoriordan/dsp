@@ -4,6 +4,8 @@
 
 The percentile graph shows a non-linear relationship between the variables.The birth weight increases for ages 15-25, stays relatively level up until 37 and then starts decreasing.
 
+![corr_graph](https://github.com/meoriordan/dsp/blob/master/statistics/images/7.1_corr.png)
+![corr_perc](https://github.com/meoriordan/dsp/blob/master/statistics/images/7.1_corr_perc.png)
 ```
 #import data & create data frames
 import first
